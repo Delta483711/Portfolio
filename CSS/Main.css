@@ -1,7 +1,14 @@
 body {
+	width: 100%;
 	background-image: linear-gradient(to right, #121212, #424242);
+	padding: 0% 0% 0% 0%;
+	margin: 0% 0% 0% 0%;
 }
 
 h1 {
 	color: White;
+	text-align: center;
+	font-size-adjust: inherit;
+	font-family: 'Source Code Pro', monospace;
 }
+
