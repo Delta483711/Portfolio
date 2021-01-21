@@ -1,7 +1,7 @@
 body {
-  background-color: darkgrey;
+	background-image: linear-gradient(to right, #121212, #424242);
 }
 
 h1 {
-  color: yellow;
+	color: White;
 }
