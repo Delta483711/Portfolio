@@ -40,7 +40,6 @@ nav a {
 }
 #Intro {
     height: 80em;
-    background: green;
     display: inline-block;
     width: 100%;
 }
@@ -55,8 +54,7 @@ nav a {
     width: 100%;
 }
 #Contact {
-    height: 80em;
-    background: green;
+    height: 60em;
     display: inline-block;
     width: 100%;
 }
