@@ -1,14 +1,62 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
-	width: 100%;
-	background-image: linear-gradient(to right, #121212, #424242);
-	padding: 0% 0% 0% 0%;
-	margin: 0% 0% 0% 0%;
+    background-image: linear-gradient(to right, #121212, #424242);
+    padding: 0;
+    margin: 0;
+    color: White;
 }
-
 h1 {
-	color: White;
-	text-align: center;
-	font-size-adjust: inherit;
-	font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    font-size-adjust: inherit;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 80px;
 }
-
+nav {
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+}
+nav ul {
+    padding-left: 40%;
+    padding-right: 20%;
+    list-style-type: none;
+    display: flex;
+}
+nav li {}
+nav a {
+    padding: 14px 16px;
+    text-transform: uppercase;
+    display: block;
+    text-decoration: none;
+    color: #f2f2f2;
+    text-align: center;
+    letter-spacing: .2em font-size: 20px;
+}
+.Intro h1 {
+    padding-top: 10%;
+}
+#Intro {
+    height: 80em;
+    background: green;
+    display: inline-block;
+    width: 100%;
+}
+#Projects {
+    height: 80em;
+    display: inline-block;
+    width: 100%;
+}
+#Blog {
+    height: 80em;
+    display: inline-block;
+    width: 100%;
+}
+#Contact {
+    height: 80em;
+    background: green;
+    display: inline-block;
+    width: 100%;
+}
