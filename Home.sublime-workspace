@@ -4,16 +4,60 @@
 		"selected_items":
 		[
 			[
+				"in",
+				"inline-block\tdisplay"
+			],
+			[
+				"back",
+				"background\tproperty"
+			],
+			[
+				"pad",
+				"padding-bottom\tproperty"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"i",
+				"inherit\tposition"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"te",
+				"text-decoration\tproperty"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"list",
+				"list-style-type\tproperty"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"se",
+				"Section2"
+			],
+			[
+				"Se",
+				"Section1"
+			],
+			[
 				"li",
 				"li\tTag"
 			],
 			[
 				"hea",
 				"header\tTag"
-			],
-			[
-				"padd",
-				"padding-bottom\tproperty"
 			],
 			[
 				"font-s",
@@ -35,7 +79,7 @@
 			"file": "Home.html",
 			"settings":
 			{
-				"buffer_size": 449,
+				"buffer_size": 1538,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -44,7 +88,7 @@
 			"file": "CSS/Main.css",
 			"settings":
 			{
-				"buffer_size": 319,
+				"buffer_size": 1065,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -61,6 +105,34 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"fot",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inde",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"inteno",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"indent",
+				"Indexing Status"
+			],
+			[
+				"",
+				"Arithmetic"
+			]
 		],
 		"width": 0.0
 	},
@@ -103,6 +175,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"}\n",
+			"flex",
+			"a",
+			"Blog",
 			"\t\t\n",
 			" \n",
 			"body {\n\tbackground-image: linear-gradient(to right, #121212, #424242);\n}\n\nh1 {\n\tcolor: White;\n}\n\t",
@@ -133,15 +209,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 449,
+						"buffer_size": 1538,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								314,
-								314
+								805,
+								805
 							]
 						],
 						"settings":
@@ -161,23 +237,24 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 319,
+						"buffer_size": 1065,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								275,
-								275
+								0,
+								1065
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 108.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
