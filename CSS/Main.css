@@ -13,6 +13,12 @@ h1 {
     font-family: 'Source Code Pro', monospace;
     font-size: 80px;
 }
+h1:hover {
+    opacity: 0.8;
+    cursor:
+}
+/*NAVIGATION BAR*/
+
 nav {
     width: 100%;
     overflow: hidden;
@@ -28,10 +34,9 @@ nav ul {
 nav li {
     display: table-cell;
     position: relative;
-
 }
 nav a {
-    padding:40px 60px;
+    padding: 40px 60px;
     text-transform: uppercase;
     display: block;
     text-decoration: none;
@@ -39,26 +44,21 @@ nav a {
     text-align: center;
     font-size: 20px;
 }
-
-nav a:hover{ opacity: 0.8;}
-
+nav a:hover {
+    opacity: 0.8;
+}
 nav a:after {
-
     content: "";
     display: block;
     height: 2px;
- 
-   
     background: black;
     transition: width 0.8s ease 0s, left 0.8s ease 0s;
     width: 0;
-
 }
 nav a:hover:after {
     width: 100%;
     left: 0;
 }
-
 .Intro h1 {
     padding-top: 10%;
 }
@@ -81,4 +81,26 @@ nav a:hover:after {
     height: 80em;
     display: inline-block;
     width: 100%;
+}
+input[type=text], select, textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    width: 100%;
+}
+.contactform {
+    background-color: darkgrey;
+}
+.col-25 {
+    width: 40%;
+    margin-top: 6px;
+}
+.row {
+    margin-left: 10%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }

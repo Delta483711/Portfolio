@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"padd",
+				"padding-left\tproperty"
+			],
+			[
+				"b",
+				"background\tproperty"
+			],
+			[
+				"marig",
+				"margin-top\tproperty"
+			],
+			[
+				"font-s",
+				"font-style\tproperty"
+			],
+			[
+				"d",
+				"text-decoration"
+			],
+			[
 				"in",
 				"inline-block\tdisplay"
 			],
@@ -32,10 +52,6 @@
 				"text-decoration\tproperty"
 			],
 			[
-				"padd",
-				"padding\tproperty"
-			],
-			[
 				"list",
 				"list-style-type\tproperty"
 			],
@@ -60,10 +76,6 @@
 				"header\tTag"
 			],
 			[
-				"font-s",
-				"font-size-adjust\tproperty"
-			],
-			[
 				"Text",
 				"text-align\tproperty"
 			],
@@ -79,7 +91,7 @@
 			"file": "Home.html",
 			"settings":
 			{
-				"buffer_size": 1538,
+				"buffer_size": 2953,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -88,7 +100,7 @@
 			"file": "CSS/Main.css",
 			"settings":
 			{
-				"buffer_size": 1065,
+				"buffer_size": 1706,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -175,6 +187,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"40",
+			"40px",
+			"v",
+			"html {\n    scroll-behavior: smooth;\n}\nbody {\n    background-image: linear-gradient(to right, #121212, #424242);\n    padding: 0;\n    margin: 0;\n    color: White;\n}\nh1 {\n    text-align: center;\n    font-size-adjust: inherit;\n    font-family: 'Source Code Pro', monospace;\n    font-size: 80px;\n}\nnav {\n    width: 100%;\n    overflow: hidden;\n    position: fixed;\n    bottom: 0;\n}\nnav ul {\n    padding-left: 42%;\n    padding-right: 20%;\n    list-style-type: none;\n    display: flex;\n}\nnav li {\n    display: table-cell;\n    position: relative;\n    padding: 15px 0;\n}\nnav a {\n    padding: 14px 16px;\n    text-transform: uppercase;\n    display: block;\n    text-decoration: none;\n    color: #f2f2f2;\n    text-align: center;\n    letter-spacing: .2em font-size: 20px;\n}\nnav a:after {\n    background: none repeat scroll 0 0 transparent;\n    content: \"\";\n    display: block;\n    height: 2px;\n    left: 50%;\n    position: absolute;\n    background: #fff;\n    transition: width 0.3s ease 0s, left 0.3s ease 0s;\n    width: 0;\n}\nnav a:hover:after {\n    width: 100%;\n    left: 0;\n}\n/*opacity: 0.5;\ntext-decoration:underline;\n*/\n\n.Intro h1 {\n    padding-top: 10%;\n}\n#Intro {\n    height: 80em;\n    display: inline-block;\n    width: 100%;\n}\n#Projects {\n    height: 80em;\n    display: inline-block;\n    width: 100%;\n}\n#Blog {\n    height: 80em;\n    display: inline-block;\n    width: 100%;\n}\n#Contact {\n    height: 80em;\n    display: inline-block;\n    width: 100%;\n}",
 			"}\n",
 			"flex",
 			"a",
@@ -209,15 +225,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1538,
+						"buffer_size": 2953,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								805,
-								805
+								1474,
+								1474
 							]
 						],
 						"settings":
@@ -225,7 +241,7 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 432.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -237,7 +253,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1065,
+						"buffer_size": 1706,
 						"regions":
 						{
 						},
@@ -245,7 +261,7 @@
 						[
 							[
 								0,
-								1065
+								1706
 							]
 						],
 						"settings":
@@ -254,7 +270,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 108.0,
+						"translation.y": 1046.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
